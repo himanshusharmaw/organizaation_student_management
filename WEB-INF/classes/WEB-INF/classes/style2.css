@@ -1,0 +1,20 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: border-box;
+}
+
+.main-container {
+    display: flex;
+    width: 100vw;
+    flex-wrap: wrap;
+    min-height: 100vh;
+}
+
+.nav-bar {
+    display: flex;
+    max-height: 10vh;
+    width: 100vw;
+    border: 5px solid  black;
+    flex-wrap: wrap;
+}

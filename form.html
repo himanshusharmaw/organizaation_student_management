@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="formstyle.css">
+    <title>Add Student Page</title>
+</head>
+
+<body>
+    <h4>Student Registration form</h4>
+    <div class="form">
+        <form action="/cbsehimanshu/FormData" method="post">
+            <div class="personal-details">
+                <label for="">Student ID</label>
+                <input type="number" name="student_id" id="" placeholder="eg-123456" min="100" max="1000000" required>
+                <label for="">Name</label>
+                <input type="text" name="name" id="" placeholder="eg-Himanshu Sharma" size="25" required>
+                <label for="">Father's Name</label>
+                <input type="text" name="fathersName" id="" placeholder="Binod Kumar Sharma" size="30px">
+            </div>
+            <div class="marks">
+                <p>Enter the Marks obtained by the Student</p>
+                
+                    <li>Maths <input type="number" name="mathsMarks" id="" min="0" max="100"></li>
+                    <li>Physics <input type="number" name="physicsMarks" id="" min="0" max="100"></li>
+                    <li>Chemistry <input type="number" name="chemistryMarks" id="" min="0" max="100"></li>
+                    <li>Hindi <input type="number" name="hindiMarks" id="" min="0" max="100"></li>
+                    <li>English <input type="number" name="englishMarks" id="" min="0" max="100"></li>
+                
+                <div class="bu">
+                    <input type="submit" value="Submit Details" style="padding: 3px; background-color: rgb(19, 109, 211); color: rgb(232, 222, 222);" class="button">
+                    <input type="reset" value="Reset" style="padding: 3px; background-color: rgb(19, 109, 211); color: rgb(232, 222, 222);" class="button">
+                </div>
+            </div>
+        </form>
+    </div>
+    <a href="index.html">Go Back</a>
+</body>
+<footer>
+	<p class="copyright">Made with &#9829; by Himanshu</p>
+</footer>
+</html>

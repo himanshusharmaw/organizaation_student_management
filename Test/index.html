@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>CBSE CLONE</title>
+</head>
+
+<body>
+    <div class="nav-bar">
+        <p class="logo">CBSE<sup>.nic</sup></p>
+        <nav class="pages">
+            <a href="#" style="font-weight: 600;">HOME</a>
+            <a href="#">NOTICES</a>
+            <a href="#">ABOUT</a>
+            <a href="#loginModal" id="loginBtn">LOGIN</a>
+        </nav>
+    </div>
+    <div class="container">
+        <div class="links">
+            <div class="list-items">
+                <ul>
+                    <li class="items"><a href="#loginModal">Add a new Student</a></li>
+                    <li class="items"><a href="#loginModal">Update a Student's details</a></li>
+                    <li class="items"><a href="#loginModal">Delete a student's data</a></li>
+                    <li class="items"><a href="retrivestudent.html">Search Student Data</a></li>
+                    <li class="items"><a href="#loginModal">Show all student data</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="posters">
+            <img src="img/CBSE-Central-Board-of-Secondary-Education.svg" alt="loading..." class="cbse">
+        </div>
+    </div>
+
+    <!-- Popup Modal -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <a href="#" class="close">&times;</a>
+            <div class="login-container">
+                <div class="login-form">
+                    <h2>Admin Login</h2>
+                    <label for="adminId">Admin ID:</label>
+                    <input type="text" id="adminId" placeholder="Enter Admin ID">
+                    <label for="adminPass">Password:</label>
+                    <input type="password" id="adminPass" placeholder="Enter Password">
+                    <button type="submit" class="submit-btn">Login</button>
+                </div>
+                <div class="login-form">
+                    <h2>Student Login</h2>
+                    <label for="studentId">Student ID:</label>
+                    <input type="text" id="studentId" placeholder="Enter Student ID">
+                    <label for="studentPass">Password:</label>
+                    <input type="password" id="studentPass" placeholder="Enter Password">
+                    <button type="submit" class="submit-btn">Login</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+<footer>
+    <a href="copyright" class="copyright">Made with &#9829; by Himanshu</a>
+</footer>
+
+</html>
